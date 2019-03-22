@@ -1,0 +1,271 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.karumi:dexter:4.2.0] /home/fission/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/08d14ecc21526018623a3539ed47375c/AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:17:1-31:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/fission/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/2a7e2a5e02fd54551ec2b831eb9acfd9/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/12c47bdbfbd772268c5bfa5618bc60af/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/51aed1c54afa356867511e677c67a391/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0a5dbab2ffac0f9ccaec5bd47cf36654/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/b639b5dadac76ca4e475e6a96b4e4c69/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bdc9d820c3d58c9c24ca6f05bf3e4b2c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/730888eba1614f5c4221573af773f4d2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77bd15d588975a7b48636b5aa4f1545c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe80345d65c91ef74a83c25400481381/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49a44fd7c69d6b0c5e6967f0c5ea01e9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/08a1a28a3667af6e4da7a9944ee61cb9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/30f9e468ba19e6d96862fd59ee6ec310/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ad907c31f39903f19af99c564bf347d0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8ed98e5e7dadda67536eb24958340beb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca0b9aa90c13dfb7b331ffdf3241a640/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/33b0b3c21af17aaedd7aae49516713ee/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/0a5e419879d4403560ba781feda4ad8e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/fission/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/3ef3f60eb7fc9b0d6c8cec5bd8bcd705/AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/fission/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d80478ed7cea9a59ef1754adfbef7e0f/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:8:22-76
+application
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.karumi:dexter:4.2.0] /home/fission/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/08d14ecc21526018623a3539ed47375c/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:4.2.0] /home/fission/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/08d14ecc21526018623a3539ed47375c/AndroidManifest.xml:26:5-30:19
+MERGED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/12c47bdbfbd772268c5bfa5618bc60af/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/12c47bdbfbd772268c5bfa5618bc60af/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/51aed1c54afa356867511e677c67a391/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/51aed1c54afa356867511e677c67a391/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0a5dbab2ffac0f9ccaec5bd47cf36654/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0a5dbab2ffac0f9ccaec5bd47cf36654/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/b639b5dadac76ca4e475e6a96b4e4c69/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/b639b5dadac76ca4e475e6a96b4e4c69/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bdc9d820c3d58c9c24ca6f05bf3e4b2c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bdc9d820c3d58c9c24ca6f05bf3e4b2c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/730888eba1614f5c4221573af773f4d2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/730888eba1614f5c4221573af773f4d2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77bd15d588975a7b48636b5aa4f1545c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77bd15d588975a7b48636b5aa4f1545c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe80345d65c91ef74a83c25400481381/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe80345d65c91ef74a83c25400481381/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49a44fd7c69d6b0c5e6967f0c5ea01e9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49a44fd7c69d6b0c5e6967f0c5ea01e9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/08a1a28a3667af6e4da7a9944ee61cb9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/08a1a28a3667af6e4da7a9944ee61cb9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/30f9e468ba19e6d96862fd59ee6ec310/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/30f9e468ba19e6d96862fd59ee6ec310/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ad907c31f39903f19af99c564bf347d0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ad907c31f39903f19af99c564bf347d0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8ed98e5e7dadda67536eb24958340beb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8ed98e5e7dadda67536eb24958340beb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca0b9aa90c13dfb7b331ffdf3241a640/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca0b9aa90c13dfb7b331ffdf3241a640/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/33b0b3c21af17aaedd7aae49516713ee/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/33b0b3c21af17aaedd7aae49516713ee/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/0a5e419879d4403560ba781feda4ad8e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/0a5e419879d4403560ba781feda4ad8e/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/fission/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/3ef3f60eb7fc9b0d6c8cec5bd8bcd705/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/fission/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/3ef3f60eb7fc9b0d6c8cec5bd8bcd705/AndroidManifest.xml:11:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/fission/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d80478ed7cea9a59ef1754adfbef7e0f/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/fission/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d80478ed7cea9a59ef1754adfbef7e0f/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:13:9-36
+	android:allowBackup
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:17:9-40
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:11:9-38
+activity#com.tekit.software.ongc.SplashScreen
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:18:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:22:27-74
+activity#com.tekit.software.ongc.LoginActivity
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:25:9-51
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:25:19-48
+activity#com.tekit.software.ongc.WellLocationActivity
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:26:19-55
+receiver#com.tekit.software.ongc.Utils.ConnectivityReceiver
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:28:9-34:20
+	android:enabled
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:30:13-35
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:29:13-55
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:31:13-33:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:32:17-79
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:32:25-76
+activity#com.tekit.software.ongc.HomeActivity
+ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:36:9-59
+	android:name
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml:36:19-47
+uses-sdk
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+MERGED from [com.karumi:dexter:4.2.0] /home/fission/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/08d14ecc21526018623a3539ed47375c/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:4.2.0] /home/fission/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/08d14ecc21526018623a3539ed47375c/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:21:5-23:62
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/fission/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/2a7e2a5e02fd54551ec2b831eb9acfd9/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/fission/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/2a7e2a5e02fd54551ec2b831eb9acfd9/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/12c47bdbfbd772268c5bfa5618bc60af/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/12c47bdbfbd772268c5bfa5618bc60af/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/51aed1c54afa356867511e677c67a391/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/51aed1c54afa356867511e677c67a391/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0a5dbab2ffac0f9ccaec5bd47cf36654/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/0a5dbab2ffac0f9ccaec5bd47cf36654/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/b639b5dadac76ca4e475e6a96b4e4c69/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/b639b5dadac76ca4e475e6a96b4e4c69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bdc9d820c3d58c9c24ca6f05bf3e4b2c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bdc9d820c3d58c9c24ca6f05bf3e4b2c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/730888eba1614f5c4221573af773f4d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/730888eba1614f5c4221573af773f4d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77bd15d588975a7b48636b5aa4f1545c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77bd15d588975a7b48636b5aa4f1545c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe80345d65c91ef74a83c25400481381/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe80345d65c91ef74a83c25400481381/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49a44fd7c69d6b0c5e6967f0c5ea01e9/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49a44fd7c69d6b0c5e6967f0c5ea01e9/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/08a1a28a3667af6e4da7a9944ee61cb9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/08a1a28a3667af6e4da7a9944ee61cb9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/30f9e468ba19e6d96862fd59ee6ec310/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/30f9e468ba19e6d96862fd59ee6ec310/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ad907c31f39903f19af99c564bf347d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ad907c31f39903f19af99c564bf347d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8ed98e5e7dadda67536eb24958340beb/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8ed98e5e7dadda67536eb24958340beb/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca0b9aa90c13dfb7b331ffdf3241a640/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca0b9aa90c13dfb7b331ffdf3241a640/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/33b0b3c21af17aaedd7aae49516713ee/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/33b0b3c21af17aaedd7aae49516713ee/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/0a5e419879d4403560ba781feda4ad8e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/0a5e419879d4403560ba781feda4ad8e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/fission/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/3ef3f60eb7fc9b0d6c8cec5bd8bcd705/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /home/fission/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/3ef3f60eb7fc9b0d6c8cec5bd8bcd705/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/fission/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d80478ed7cea9a59ef1754adfbef7e0f/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/fission/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d80478ed7cea9a59ef1754adfbef7e0f/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+		ADDED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fission/Desktop/ONGC/app/src/main/AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:4.2.0] /home/fission/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/08d14ecc21526018623a3539ed47375c/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:4.2.0] /home/fission/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/08d14ecc21526018623a3539ed47375c/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:4.2.0] /home/fission/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/08d14ecc21526018623a3539ed47375c/AndroidManifest.xml:28:13-60
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bdc9d820c3d58c9c24ca6f05bf3e4b2c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bdc9d820c3d58c9c24ca6f05bf3e4b2c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/730888eba1614f5c4221573af773f4d2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/730888eba1614f5c4221573af773f4d2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77bd15d588975a7b48636b5aa4f1545c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/77bd15d588975a7b48636b5aa4f1545c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe80345d65c91ef74a83c25400481381/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe80345d65c91ef74a83c25400481381/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49a44fd7c69d6b0c5e6967f0c5ea01e9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/49a44fd7c69d6b0c5e6967f0c5ea01e9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/08a1a28a3667af6e4da7a9944ee61cb9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/08a1a28a3667af6e4da7a9944ee61cb9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/30f9e468ba19e6d96862fd59ee6ec310/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/30f9e468ba19e6d96862fd59ee6ec310/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ad907c31f39903f19af99c564bf347d0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ad907c31f39903f19af99c564bf347d0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8ed98e5e7dadda67536eb24958340beb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8ed98e5e7dadda67536eb24958340beb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca0b9aa90c13dfb7b331ffdf3241a640/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/ca0b9aa90c13dfb7b331ffdf3241a640/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/33b0b3c21af17aaedd7aae49516713ee/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/33b0b3c21af17aaedd7aae49516713ee/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/fission/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2aa8e87f6baec2109aa78e1a0cc54932/AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/8235dd90b4c79ac4d9978391e5c02c9f/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/b639b5dadac76ca4e475e6a96b4e4c69/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/b639b5dadac76ca4e475e6a96b4e4c69/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/fission/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/b639b5dadac76ca4e475e6a96b4e4c69/AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/fission/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d80478ed7cea9a59ef1754adfbef7e0f/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/fission/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d80478ed7cea9a59ef1754adfbef7e0f/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/fission/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/d80478ed7cea9a59ef1754adfbef7e0f/AndroidManifest.xml:26:13-58

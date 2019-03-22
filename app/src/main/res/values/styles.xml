@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/custom_et_bg</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:textSize">@dimen/editTextSize</item>
+        <item name="android:layout_marginBottom">@dimen/editTextMarginButton</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CustomEditText1" parent="Widget.AppCompat.EditText">
+    <item name="android:background">@drawable/custom_et_search</item>
+    <item name="android:padding">@dimen/editTextPadding</item>
+    <item name="android:textSize">@dimen/editTextSize</item>
+    <item name="android:layout_marginBottom">@dimen/editTextMarginButton</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:singleLine">true</item>
+    </style>
+
+
+</resources>

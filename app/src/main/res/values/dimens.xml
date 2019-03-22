@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_horizontal_padding">16dp</dimen>
+    <dimen name="layout_vertical_padding">16dp</dimen>
+    <dimen name="layout_horizontal_margin">16dp</dimen>
+    <dimen name="layout_vertical_margin">16dp</dimen>
+    <dimen name="editTextSize">16dp</dimen>
+    <dimen name="editTextPadding">10dp</dimen>
+    <dimen name="editTextMarginButton">8dp</dimen>
+    <dimen name="editTextMarginTop">8dp</dimen>
+
+    <dimen name="tvFormLabelMarginTop">2dp</dimen>
+    <dimen name="tvFromLabelTextSize">14dp</dimen>
+    <dimen name="tvFromValueSize">14dp</dimen>
+    <dimen name="tvFromLabelMarginBottom">2dp</dimen>
+
+    <dimen name="tvLabelFormMarginTop">8dp</dimen>
+    <dimen name="tvLabelFormMarginBottom">8dp</dimen>
+    <dimen name="tvLabelFromTextSize">14dp</dimen>
+
+    <dimen name="etFormPadding">8dp</dimen>
+    <dimen name="etFormMarginTop">8dp</dimen>
+    <dimen name="etFormMarginBottom">8dp</dimen>
+
+</resources>

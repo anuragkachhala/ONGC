@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ONGC AMD Asset, Well Location Assist</string>
+
+    <string name="label_user_name">User name</string>
+    <string name="label_password">Enter Password</string>
+    <string name="btn_sign_in">Sing In</string>
+    <string name="title_search_well_location">Search Well</string>
+    <string name="label_search_well">Search Well</string>
+    <string name="well_lat">Well Latitude</string>
+    <string name="well_long">Well Longitude</string>
+    <string name="current_lat">Current Latitude</string>
+    <string name="current_long">Current Longitude</string>
+    <string name="btn_search">Search Well</string>
+    <string name="label_uwi">UWI</string>
+    <string name="label_well_name">Well Name</string>
+    <string name="label_short_name">Short Name</string>
+    <string name="label_release_name">Release Name</string>
+    <string name="contact_us_mail">Tekitneelesh.sati@gmail.com</string>
+    <string name="toolbar_title">Home</string>
+    <string name="toolbar_well_location">Search Well Location</string>
+</resources>
