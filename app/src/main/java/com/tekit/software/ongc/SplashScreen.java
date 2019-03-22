@@ -101,14 +101,25 @@ public class SplashScreen extends AppCompatActivity {
 
                 Log.e("Size",tokens.length+"");
                 // Setters
-                if(tokens.length>4&& tokens[0]!=null && tokens[1]!=null && tokens[2]!=null && tokens[3]!=null && tokens[6]!=null && tokens[7]!=null) {
-                    locationData.setUWI(tokens[0]);
-                    locationData.setWellName(tokens[1]);
-                    locationData.setShortName(tokens[2]);
-                    locationData.setReleaseName(tokens[3]);
-                    locationData.setLongitude(removeQuotes(tokens[4],"E"));
-                    locationData.setLat(removeQuotes(tokens[5],"N"));
-                    locationData.setWellId(tokens[1]);
+                /*if(tokens.length>4&& tokens[0]!=null && tokens[1]!=null && tokens[2]!=null && tokens[3]!=null && tokens[6]!=null && tokens[7]!=null) {*/
+                if(tokens.length>4) {
+                    locationData.setUWI(checkNull(tokens[0]));
+                    locationData.setWellName(checkNull(tokens[1]));
+                    locationData.setShortName(checkNull(tokens[2]));
+                    locationData.setReleaseName(checkNull(tokens[3]));
+                    if (tokens[4] != null) {
+                        locationData.setLongitude(removeQuotes(tokens[4], "E"));
+
+                    } else {
+                        locationData.setLongitude(checkNull(tokens[4]));
+                    }
+                    if (tokens[5] != null) {
+                        locationData.setLat(removeQuotes(tokens[5], "N"));
+                    } else {
+                        locationData.setLat(checkNull(tokens[5]));
+                    }
+                    locationData.setWellId(checkNull(tokens[1]));
+                    //}
                 }
 
 
@@ -157,6 +168,14 @@ public class SplashScreen extends AppCompatActivity {
         return  a;
 
 
+    }
+
+    private String  checkNull(String value){
+        if(value == null){
+            return  "-1";
+        }
+
+        return value;
     }
 
 
