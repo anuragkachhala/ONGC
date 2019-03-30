@@ -23,6 +23,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.android.gms.common.api.ApiException;
@@ -68,8 +69,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
     private static final long UPDATE_INTERVAL_IN_MILLISECONDS = 10000;
     private static final int REQUEST_CHECK_SETTINGS = 100;
 
-    @BindView(R.id.toolbar)
-    Toolbar toolbar;
+
     @BindView(R.id.et_search_well)
     EditText editTextSearchWell;
     @BindView(R.id.widget_well_lat)
@@ -96,7 +96,10 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
     @BindView(R.id.et_well_short_name)
     EditText editTextWellShortName;
 
-    private Boolean mRequestingLocationUpdates = false;
+    @BindView(R.id.progress_bar)
+    ProgressBar progressBar;
+
+    private Boolean mRequestingLocationUpdates = false ;
     private FusedLocationProviderClient mFusedLocationClient;
     private SettingsClient mSettingsClient;
     private LocationRequest mLocationRequest;
@@ -106,10 +109,11 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
     private SessionManager mSessionManager;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        /*setContentView(R.layout.activity_home);*/
         ButterKnife.bind(this);
         startLocation();
         SessionManager.setContext(this);
@@ -138,7 +142,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected String getToolBarTitle() {
-        return null;
+        return getResources().getString(R.string.toolbar_title);
     }
 
     @Override
@@ -166,7 +170,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
             }
         };
 
-        mRequestingLocationUpdates = false;
+       // mRequestingLocationUpdates = false;
 
         mLocationRequest = new LocationRequest();
         mLocationRequest.setInterval(UPDATE_INTERVAL_IN_MILLISECONDS);
@@ -208,6 +212,16 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
                         token.continuePermissionRequest();
                     }
                 }).check();
+    }
+
+
+    private boolean isLocationUpdated(){
+        if(editTextCurrentLat.getText().toString().isEmpty() && editTextCurrentLong.getText().toString().isEmpty()){
+            return false;
+        }
+        else {
+            return true;
+        }
     }
 
 
@@ -287,6 +301,10 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
             updateLocation = true;
             editTextCurrentLat.setText(mCurrentLocation.getLatitude() + "");
             editTextCurrentLong.setText(mCurrentLocation.getLongitude() + "");
+        }
+
+        if(updateLocation){
+            progressBar.setVisibility(View.GONE);
         }
 
 
@@ -378,13 +396,13 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
             public void onClick(DialogInterface dialog, int which) {
                 mSessionManager.logoutUser();
                 dialog.dismiss();
-                Toast.makeText(getApplicationContext(), "You clicked on YES", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(), "You clicked on YES", Toast.LENGTH_SHORT).show();
             }
         });
 
         alertDialog.setNegativeButton("NO", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(getApplicationContext(), "You clicked on NO", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(), "You clicked on NO", Toast.LENGTH_SHORT).show();
                 dialog.cancel();
             }
         });

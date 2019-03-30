@@ -25,8 +25,7 @@ import butterknife.ButterKnife;
 
 public class SplashScreen extends AppCompatActivity {
 
-    @BindView(R.id.progress_bar)
-    ProgressBar progressBar;
+
 
     public int splash_timeout = 2000;
     private DataBaseAdapter dataBaseAdapter;

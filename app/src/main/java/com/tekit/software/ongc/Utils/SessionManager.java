@@ -134,9 +134,9 @@ public class SessionManager {
 
 
     public void logoutUser(){
-        /*SharedPreferences.Editor editor= preferences.edit();
+        SharedPreferences.Editor editor= preferences.edit();
         editor.clear();
-        editor.commit();*/
+        editor.commit();
         Intent intent = new Intent(context, LoginActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
