@@ -2,15 +2,15 @@ package com.tekit.software.ongc;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextWatcher;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -98,8 +98,6 @@ public class WellLocationActivity extends BaseActivity implements LocationAdapte
     }
 
 
-
-
     private void setRecyclerView() {
 
         mLocationAdapter = new LocationAdapter(this, mLocationDataList, this);
@@ -114,8 +112,8 @@ public class WellLocationActivity extends BaseActivity implements LocationAdapte
 
 
     @Override
-    public void onLocationSelected(int position) {
-        LocationData locationData = mLocationDataList.get(position);
+    public void onLocationSelected(int position, List<LocationData> mLocationDataListFilterd) {
+        LocationData locationData = mLocationDataListFilterd.get(position);
         Intent intent = new Intent();
         intent.putExtra(WELL_LATITUDE, locationData.getLat());
         intent.putExtra(WELL_LONGITUDE, locationData.getLongitude());
@@ -163,4 +161,25 @@ public class WellLocationActivity extends BaseActivity implements LocationAdapte
         filter(editable.toString());
 
     }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+
+        }
+        return super.onOptionsItemSelected(item);
+
+    }
+
+
 }
