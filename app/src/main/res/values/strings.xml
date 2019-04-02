@@ -15,7 +15,7 @@
     <string name="label_well_name">Well Name</string>
     <string name="label_short_name">Short Name</string>
     <string name="label_release_name">Release Name</string>
-    <string name="contact_us_mail">Tekitneelesh.sati@gmail.com</string>
+    <string name="contact_us_mail">neelesh.sati@gmail.com</string>
     <string name="toolbar_title">Home</string>
     <string name="toolbar_well_location">Search Well Location</string>
 </resources>
