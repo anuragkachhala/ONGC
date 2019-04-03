@@ -137,7 +137,9 @@ public class WellLocationActivity extends BaseActivity implements LocationAdapte
         mLocationDataListFilterd.clear();
         for (LocationData locationData : mLocationDataList) {
 
-            if (locationData.getWellId() != null && locationData.getWellId().toUpperCase().contains(text)) {
+
+
+            if ((locationData.getWellId() != null && locationData.getWellId().toUpperCase().contains(text)) ||(locationData.getReleaseName()!=null && locationData.getShortName().toUpperCase().contains(text)) ||(locationData.getReleaseName()!=null && locationData.getReleaseName().toUpperCase().contains(text)) || (locationData.getUWI()!=null && locationData.getUWI().toUpperCase().contains(text))) {
                 mLocationDataListFilterd.add(locationData);
             }
         }
