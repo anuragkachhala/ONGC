@@ -6,7 +6,31 @@
     tools:context=".LoginActivity">
 
 
+    <RelativeLayout
+        android:layout_marginTop="24dp"
+        android:id="@+id/layout_logo"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ongc"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ongcc"/>
+
+
+    </RelativeLayout>
+
+
     <LinearLayout
+        android:layout_below="@id/layout_logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
